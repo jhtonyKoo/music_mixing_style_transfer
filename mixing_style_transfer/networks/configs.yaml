@@ -1,0 +1,30 @@
+# model architecture configurations
+
+
+# Music Effects Encoder
+Effects_Encoder:
+
+  default:
+    channels: [16, 32, 64, 128, 256, 256, 512, 512, 1024, 1024, 2048, 2048]
+    kernels: [25, 25, 15, 15, 10, 10, 10, 10, 5, 5, 5, 5]
+    strides: [4, 4, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1]
+    dilation: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    bias: True
+    norm: 'batch'
+    conv_block: 'res'
+    activation: "relu"
+    
+
+# TCN
+TCN:
+
+  # receptive field = 5.2 seconds
+  default:
+    condition_dimension: 2048
+    nblocks: 14
+    dilation_growth: 2
+    kernel_size: 15
+    channel_width: 128
+    stack_size: 15
+    causal: False
+
