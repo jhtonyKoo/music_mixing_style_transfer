@@ -41,7 +41,7 @@ python inference/style_transfer.py \
 ```
 4. Outputs will be stored under the same folder to inference data directory (default)
 
-*Note: The system accepts WAV files of stereo-channeled, 44.1kHZ, and 16-bit rate.*
+*Note: The system accepts WAV files of stereo-channeled, 44.1kHZ, and 16-bit rate. We recommend to use audio samples that are not too loud: it's better for the system to transfer these samples by reducing the loudness of mixture-wise inputs (maintaining the overall balance of each instrument).*
 
 
 
