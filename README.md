@@ -3,7 +3,7 @@
 This repository includes source code and pre-trained models of the work *Music Mixing Style Transfer: A Contrastive Learning Approach to Disentangle Audio Effects* by [Junghyun Koo](https://linkedin.com/in/junghyun-koo-525a31251), [Marco A. Martínez-Ramírez](https://m-marco.com/about/), [Wei-Hsiang Liao](https://jp.linkedin.com/in/wei-hsiang-liao-66283154), [Stefan Uhlich](https://scholar.google.de/citations?user=hja8ejYAAAAJ&hl=de), [Kyogu Lee](https://linkedin.com/in/kyogu-lee-7a93b611), and [Yuki Mitsufuji](https://www.yukimitsufuji.com/).
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b.svg)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2211.02247-b31b1b.svg)](https://arxiv.org/abs/2211.02247)
 [![Web](https://img.shields.io/badge/Web-Demo_Page-green.svg)](https://jhtonyKoo.github.io/MixingStyleTransfer/)
 [![Supplementary](https://img.shields.io/badge/Supplementary-Materials-white.svg)](https://tinyurl.com/4math4pm)
 
