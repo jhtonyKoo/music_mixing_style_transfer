@@ -16,6 +16,10 @@ This repository includes source code and pre-trained models of the work *Music M
 [MixFXcloner](https://drive.google.com/file/d/1Qu8rD7HpTNA1gJUVp2IuaeU_Nue8-VA3/view?usp=sharing) | Mixing style converter trained with Φ<sub>p.s.</sub> | Trained with [MUSDB18](https://sigsep.github.io/datasets/musdb.html) Dataset
 
 
+## Installation
+```
+pip install -r "requirements.txt"
+```
 
 # Inference
 
