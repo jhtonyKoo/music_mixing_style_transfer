@@ -109,5 +109,18 @@ All the details of our system implementation are under the folder "mixing_style_
 &emsp;&emsp;-> mixing_style_transfer/data_loader/
 
 
+# Citation
+
+Please consider citing the work upon usage.
+
+```
+@article{koo2022music,
+  title={Music Mixing Style Transfer: A Contrastive Learning Approach to Disentangle Audio Effects},
+  author={Koo, Junghyun and Martinez-Ramirez, Marco A and Liao, Wei-Hsiang and Uhlich, Stefan and Lee, Kyogu and Mitsufuji, Yuki},
+  journal={arXiv preprint arXiv:2211.02247},
+  year={2022}
+}
+```
+
 
 
