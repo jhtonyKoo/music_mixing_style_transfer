@@ -369,7 +369,7 @@ if __name__ == '__main__':
     inference_args.add_argument('--separation_model', type=str, default='mdx_extra')
     # FX normalization
     inference_args.add_argument('--normalize_input', type=str2bool, default=True)
-    inference_args.add_argument('--normalization_order', type=str2bool, default=['eq', 'compression', 'imager', 'loudness']) # Effects to be normalized, order matters
+    inference_args.add_argument('--normalization_order', type=str2bool, default=['loudness', 'eq', 'compression', 'imager', 'loudness']) # Effects to be normalized, order matters
     # interpolation
     inference_args.add_argument('--interpolation', type=str2bool, default=False)
     inference_args.add_argument('--interpolate_segments', type=int, default=30)
